@@ -1,15 +1,15 @@
-import { linearSearch } from '../src/algorithms/LinearSearch';
+import linear_search from '../src/practice/LinearSearchList';
 
-test('should return the correct index if element is found', () => {
+test('should return true if element is found', () => {
     const arr = [1, 2, 3, 4, 5];
     const target = 3;
-    const index = linearSearch(arr, target);
-    expect(index).toBe(2);
+    const result = linear_search(arr, target);
+    expect(result).toBe(true);
 });
 
-test('should return -1 if element is not found', () => {
+test('should return false if element is not found', () => {
     const arr = [1, 2, 3, 4, 5];
     const target = 10;
-    const index = linearSearch(arr, target);
-    expect(index).toBe(-1);
+    const result = linear_search(arr, target);
+    expect(result).toBe(false);
 });
