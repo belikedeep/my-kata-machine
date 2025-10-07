@@ -6,7 +6,8 @@
   "author": "Deepak Mardi <deepakmardi22@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "generate:algos": "node scripts/generator.js"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",

@@ -1,6 +1,6 @@
 module.exports = {
   dsa: [
     "LinearSearchList",
-    // "BinarySearchList"
+    "BinarySearchList"
   ],
 };
